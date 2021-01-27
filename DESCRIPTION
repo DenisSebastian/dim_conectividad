@@ -1,11 +1,24 @@
 Package: conectividad
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Funciones Análisis de Conectividad
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Denis Berroeta G.
+Maintainer: Denis Berroeta <denis.berroeta@uai.cl>
+Description: Entrega Funciones de Análisis de Conectividad en Redes de Víales en las Regiones de Chile.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    igraph,
+    units,
+    tmap,
+    tibble,
+    ggplot2,
+    mapdeck,
+    tidygraph,
+    magrittr
+Depends: 
+    sf
